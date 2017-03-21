@@ -1,0 +1,20 @@
+#优先级
+# 1.远程git仓库配置的值 在子上下文不会被覆盖！ 如profile值不会显示abcd
+# 2.而不在远程配置的值，会在子上下文（application.yml）中被覆盖。
+# 满足以上2点的前提是，application.name 和 profile 能正确的找到GIT上对应的配置
+
+# 以上说法不保证完全正确(应该使用大多情况)，比如下列例外 server.port的值会被子上下文覆盖掉。。。
+#
+server:
+  port: 8101
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8104
+      profile: dev
+  application:
+    name: register2
+
+profile: abcd
+prifile2: application.yml's profile2
