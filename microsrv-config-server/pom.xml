@@ -25,9 +25,10 @@
 	</properties>
 
 	<dependencies>
+		<!--引入 Spring config server 依赖-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 	</dependencies>
 
