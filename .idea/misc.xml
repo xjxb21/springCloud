@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-consumer-register/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-consumer-register-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-consumer-register-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-discovery-eureka-peer1/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-discovery-eureka-peer2/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-discovery-eureka-peer3/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-getway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-getway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-getway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-config-server/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/microservice-consumer-userManage/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

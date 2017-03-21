@@ -1,0 +1,16 @@
+server:
+  port: 7070
+
+spring:
+  application:
+    name: microsrv-consumer-register
+
+#eureka 服务配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    #web中列表服务链接启用IP地址显示
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}

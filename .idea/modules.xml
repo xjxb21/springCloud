@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microsrv-config-server/microsrv-config-server.iml" filepath="$PROJECT_DIR$/microsrv-config-server/microsrv-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-consumer-register/microsrv-consumer-register.iml" filepath="$PROJECT_DIR$/microsrv-consumer-register/microsrv-consumer-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-consumer-register-feign/microsrv-consumer-register-feign.iml" filepath="$PROJECT_DIR$/microsrv-consumer-register-feign/microsrv-consumer-register-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-consumer-register-ribbon/microsrv-consumer-register-ribbon.iml" filepath="$PROJECT_DIR$/microsrv-consumer-register-ribbon/microsrv-consumer-register-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-consumer-register-withHystrix/microsrv-consumer-register-withHystrix.iml" filepath="$PROJECT_DIR$/microsrv-consumer-register-withHystrix/microsrv-consumer-register-withHystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-dashboard/microsrv-dashboard.iml" filepath="$PROJECT_DIR$/microsrv-dashboard/microsrv-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-discovery-eureka/microsrv-discovery-eureka.iml" filepath="$PROJECT_DIR$/microsrv-discovery-eureka/microsrv-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer1/microsrv-discovery-eureka-peer1.iml" filepath="$PROJECT_DIR$/microsrv-discovery-eureka-peer1/microsrv-discovery-eureka-peer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer2/microsrv-discovery-eureka-peer2.iml" filepath="$PROJECT_DIR$/microsrv-discovery-eureka-peer2/microsrv-discovery-eureka-peer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer3/microsrv-discovery-eureka-peer3.iml" filepath="$PROJECT_DIR$/microsrv-discovery-eureka-peer3/microsrv-discovery-eureka-peer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-getway-zuul/microsrv-getway-zuul.iml" filepath="$PROJECT_DIR$/microsrv-getway-zuul/microsrv-getway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-getway-zuul-fallback/microsrv-getway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microsrv-getway-zuul-fallback/microsrv-getway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-getway-zuul-filter/microsrv-getway-zuul-filter.iml" filepath="$PROJECT_DIR$/microsrv-getway-zuul-filter/microsrv-getway-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-provider-user/microsrv-provider-user.iml" filepath="$PROJECT_DIR$/microsrv-provider-user/microsrv-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjsystem.iml" filepath="$PROJECT_DIR$/xjsystem.iml" />
+    </modules>
+  </component>
+</project>

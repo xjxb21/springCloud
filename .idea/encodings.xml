@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-consumer-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-consumer-register-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-consumer-register-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-consumer-register-withHystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-discovery-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-discovery-eureka-peer3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-getway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-getway-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-getway-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-provider-user" charset="UTF-8" />
+  </component>
+</project>

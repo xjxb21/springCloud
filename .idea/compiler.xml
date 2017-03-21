@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microsrv-config-server" />
+        <module name="microsrv-consumer-register" />
+        <module name="microsrv-consumer-register-feign" />
+        <module name="microsrv-consumer-register-ribbon" />
+        <module name="microsrv-consumer-register-withHystrix" />
+        <module name="microsrv-dashboard" />
+        <module name="microsrv-discovery-eureka" />
+        <module name="microsrv-discovery-eureka-peer1" />
+        <module name="microsrv-discovery-eureka-peer2" />
+        <module name="microsrv-discovery-eureka-peer3" />
+        <module name="microsrv-getway-zuul" />
+        <module name="microsrv-getway-zuul-fallback" />
+        <module name="microsrv-getway-zuul-filter" />
+        <module name="microsrv-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="microsrv-config-server" target="1.8" />
+      <module name="microsrv-consumer-register" target="1.8" />
+      <module name="microsrv-consumer-register-feign" target="1.8" />
+      <module name="microsrv-consumer-register-ribbon" target="1.8" />
+      <module name="microsrv-consumer-register-withHystrix" target="1.8" />
+      <module name="microsrv-dashboard" target="1.8" />
+      <module name="microsrv-discovery-eureka" target="1.8" />
+      <module name="microsrv-discovery-eureka-peer1" target="1.8" />
+      <module name="microsrv-discovery-eureka-peer2" target="1.8" />
+      <module name="microsrv-discovery-eureka-peer3" target="1.8" />
+      <module name="microsrv-getway-zuul" target="1.8" />
+      <module name="microsrv-getway-zuul-fallback" target="1.8" />
+      <module name="microsrv-getway-zuul-filter" target="1.8" />
+      <module name="microsrv-provider-user" target="1.8" />
+      <module name="xjsystem" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,46 @@
+spring:
+  application:
+    name: Eurake HA
+  profiles:
+    #当前激活profiles peer1 的配置
+    active: peer1
+
+---
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      #需要对等服务，指向peer2，以下同意思，否则Eureka不会检测HA中的其他服务
+      defaultZone: http://peer2:8762/eureka/
+#因为做了单机HA，所以需要加上端口
+server:
+  port: 8761
+
+---
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer3:8763/eureka/
+#因为做了单机HA，所以需要加上端口
+server:
+  port: 8762
+
+---
+spring:
+  profiles: peer3
+eureka:
+  instance:
+    hostname: peer3
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/
+#因为做了单机HA，所以需要加上端口
+server:
+  port: 8763

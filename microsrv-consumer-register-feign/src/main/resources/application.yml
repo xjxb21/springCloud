@@ -1,0 +1,19 @@
+server:
+  port: 7071
+
+spring:
+  application:
+    name: microsrv-consumer-register-feign
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+
+#为定制的 feign client 配置日志[重要]
+logging:
+  level:
+    com.xjsystem.consumer.feignClient.UserFeignClient4Config: DEBUG
