@@ -1,0 +1,11 @@
+server:
+  port: 8101
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8100
+      profile: dev
+  application:
+    name: register
+
+profile2: bootstrap.yml's profile2
