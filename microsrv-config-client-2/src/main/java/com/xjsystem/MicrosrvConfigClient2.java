@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @EnableDiscoveryClient
 @RefreshScope   //动态刷新bean
-public class MicrosrvConfigClient {
+public class MicrosrvConfigClient2 {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicrosrvConfigClient.class, args);
+        SpringApplication.run(MicrosrvConfigClient2.class, args);
     }
 
     @RequestMapping("/")

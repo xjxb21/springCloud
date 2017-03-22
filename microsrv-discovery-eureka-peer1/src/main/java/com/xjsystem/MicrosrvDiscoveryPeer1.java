@@ -7,9 +7,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class MicrosrvDiscoveryEurekaApplication {
+public class MicrosrvDiscoveryPeer1 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicrosrvDiscoveryEurekaApplication.class, args);
+		SpringApplication.run(MicrosrvDiscoveryPeer1.class, args);
 	}
 }
