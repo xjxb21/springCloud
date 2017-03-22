@@ -10,15 +10,10 @@ spring:
           uri: https://github.com/xjxb21/{application}-{profile}
   application:
     name: microsrv-config-server
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer1:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
     prefer-ip-address: true
