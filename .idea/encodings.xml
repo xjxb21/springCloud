@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-config-client-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-consumer-register" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-consumer-register-feign" charset="UTF-8" />

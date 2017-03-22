@@ -8,3 +8,13 @@ spring:
       server:
         git:
           uri: https://github.com/xjxb21/{application}-{profile}
+  application:
+    name: microsrv-config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}

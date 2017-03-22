@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8100
-      profile: default
+      profile: dev
   application:
     name: register
 eureka:

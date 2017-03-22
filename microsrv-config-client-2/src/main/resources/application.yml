@@ -6,6 +6,6 @@
 # 以上说法不保证完全正确(应该使用大多情况)，比如下列例外 server.port的值会被子上下文覆盖掉。。。
 #
 server:
-  port: 8101
+  port: 8102
 
-profile2: application.yml's profile2
+profile2: client2 application.yml's profile2

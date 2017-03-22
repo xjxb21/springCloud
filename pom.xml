@@ -24,6 +24,8 @@
         <module>microsrv-consumer-register-withHystrix</module>
         <module>microsrv-getway-zuul</module>
         <module>microsrv-getway-zuul-fallback</module>
+        <module>microsrv-config-client-2</module>
+        <module>microsrv-config-client</module>
     </modules>
 
     <!--Spring Cloud-->
