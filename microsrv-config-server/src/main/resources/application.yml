@@ -7,4 +7,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/xjxb21/cloud-config-respo.git
+          uri: https://github.com/xjxb21/{application}-{profile}

@@ -8,13 +8,4 @@
 server:
   port: 8101
 
-spring:
-  cloud:
-    config:
-      uri: http://localhost:8104
-      profile: dev
-  application:
-    name: register2
-
-profile: abcd
 prifile2: application.yml's profile2

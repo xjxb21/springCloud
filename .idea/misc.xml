@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/microsrv-getway-zuul-fallback/pom.xml" />
         <option value="$PROJECT_DIR$/microsrv-getway-zuul-filter/pom.xml" />
         <option value="$PROJECT_DIR$/microsrv-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-config-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

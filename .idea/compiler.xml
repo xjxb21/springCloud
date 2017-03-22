@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microsrv-config-client" />
         <module name="microsrv-config-server" />
         <module name="microsrv-consumer-register" />
         <module name="microsrv-consumer-register-feign" />
@@ -23,6 +24,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="microsrv-config-client" target="1.8" />
       <module name="microsrv-config-server" target="1.8" />
       <module name="microsrv-consumer-register" target="1.8" />
       <module name="microsrv-consumer-register-feign" target="1.8" />
