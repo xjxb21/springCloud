@@ -26,6 +26,9 @@
         <module>microsrv-getway-zuul-fallback</module>
         <module>microsrv-config-client-2</module>
         <module>microsrv-config-client</module>
+        <module>microsrv-cloud-stream-consumer</module>
+        <module>microsrv-cloud-stream-consumer2</module>
+        <module>microsrv-cloud-stream-producer</module>
     </modules>
 
     <!--Spring Cloud-->
@@ -40,6 +43,13 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Camden.SR6</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-stream-dependencies</artifactId>
+                <version>Brooklyn.SR3</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

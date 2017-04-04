@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-cloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-cloud-stream-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-cloud-stream-consumer2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microsrv-cloud-stream-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-config-client-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microsrv-config-server" charset="UTF-8" />

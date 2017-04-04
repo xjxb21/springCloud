@@ -1,0 +1,29 @@
+server:
+  port: 8601
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+spring:
+  application:
+    name: microserv-cloud-stream-consumer2
+  cloud:
+    stream:
+      bindings:
+        message-sink:
+          destination: testqueue
+          binder: rabbit1
+          group: laoyu
+      binders:
+        rabbit1:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 127.0.0.1
+                port: 5672
+                username: guest
+                password: guest

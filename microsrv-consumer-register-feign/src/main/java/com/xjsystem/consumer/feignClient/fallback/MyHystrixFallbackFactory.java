@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 使用 fallback factory 获取异常信息
- * 好像有点不稳定
  */
 @Component
 public class MyHystrixFallbackFactory implements FallbackFactory<UserFeignClientWithHystrixFallbackFactory> {
