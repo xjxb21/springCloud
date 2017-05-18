@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/microsrv-cloud-stream-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/microsrv-cloud-stream-producer/pom.xml" />
         <option value="$PROJECT_DIR$/microsrv-cloud-stream-consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrv-cloud-stream-consumer3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

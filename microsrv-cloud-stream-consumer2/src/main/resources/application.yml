@@ -16,7 +16,7 @@ spring:
         message-sink:
           destination: testqueue
           binder: rabbit1
-          group: laoyu
+          group: laoyu #如果不分组，相当于在RABBITMQ上订阅了testqueue 这个exchange
       binders:
         rabbit1:
           type: rabbit

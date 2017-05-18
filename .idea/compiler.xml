@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microsrv-cloud-stream-consumer" />
         <module name="microsrv-cloud-stream-consumer2" />
+        <module name="microsrv-cloud-stream-consumer3" />
         <module name="microsrv-cloud-stream-producer" />
         <module name="microsrv-config-client" />
         <module name="microsrv-config-client-2" />
@@ -32,6 +33,7 @@
       <module name="microsrv-cloud-stream-consumer" target="1.8" />
       <module name="microsrv-cloud-stream-consumer (1)" target="1.8" />
       <module name="microsrv-cloud-stream-consumer2" target="1.8" />
+      <module name="microsrv-cloud-stream-consumer3" target="1.8" />
       <module name="microsrv-cloud-stream-producer" target="1.8" />
       <module name="microsrv-config-client" target="1.8" />
       <module name="microsrv-config-client-2" target="1.8" />

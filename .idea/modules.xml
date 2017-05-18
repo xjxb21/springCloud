@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microsrv-cloud-stream-consumer/microsrv-cloud-stream-consumer.iml" filepath="$PROJECT_DIR$/microsrv-cloud-stream-consumer/microsrv-cloud-stream-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsrv-cloud-stream-consumer2/microsrv-cloud-stream-consumer2.iml" filepath="$PROJECT_DIR$/microsrv-cloud-stream-consumer2/microsrv-cloud-stream-consumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microsrv-cloud-stream-consumer3/microsrv-cloud-stream-consumer3.iml" filepath="$PROJECT_DIR$/microsrv-cloud-stream-consumer3/microsrv-cloud-stream-consumer3.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsrv-cloud-stream-producer/microsrv-cloud-stream-producer.iml" filepath="$PROJECT_DIR$/microsrv-cloud-stream-producer/microsrv-cloud-stream-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsrv-config-client/microsrv-config-client.iml" filepath="$PROJECT_DIR$/microsrv-config-client/microsrv-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/microsrv-config-client-2/microsrv-config-client-2.iml" filepath="$PROJECT_DIR$/microsrv-config-client-2/microsrv-config-client-2.iml" />

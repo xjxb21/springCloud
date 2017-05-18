@@ -28,6 +28,7 @@
         <module>microsrv-config-client</module>
         <module>microsrv-cloud-stream-consumer</module>
         <module>microsrv-cloud-stream-consumer2</module>
+        <module>microsrv-cloud-stream-consumer3</module>
         <module>microsrv-cloud-stream-producer</module>
     </modules>
 

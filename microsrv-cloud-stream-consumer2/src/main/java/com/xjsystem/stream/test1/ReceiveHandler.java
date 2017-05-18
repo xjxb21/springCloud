@@ -14,6 +14,7 @@ public class ReceiveHandler {
     @StreamListener(MessageSink.MESSAGE_SINK)
     public void show(String message) {
         try {
+            Thread.sleep(1000);
             System.out.println("receive message:" + message);
         } catch (Exception e) {
             e.printStackTrace();
